@@ -1,4 +1,6 @@
 @import url('./reset.less');
+.container{width: 1231px;margin: 0 84px 0 53px;}
+.container-fluid{width: 100%;}
 header{
     background: #f2f2f2;
     height: 25px;
@@ -14,11 +16,33 @@ header{
     }
     ul{
         list-style: none;
-        li{
+        padding: 6px 0;
+        height: 25px;
+        >li{
+           line-height: 10px;
+           height: 10px;
             float: left;
-            margin-left: 15px;
+          padding: 0 10px;
+            &:nth-child(3){
+                border-right: solid 1px #999;
+              
+            }
         }
     }
     }
    
+}
+
+article{
+   div>img{
+       width: 200px;
+       height: 100px;
+   }
+   >input{
+    margin-top: 38px;
+    margin-left: 120px;
+   width: 495px;
+   height: 40px;
+   border: 2px solid red;
+   }
 }

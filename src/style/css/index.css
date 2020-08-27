@@ -164,10 +164,10 @@ a:hover {
   float: right;
 }
 .container {
-  width: 924px;
-  margin: 0 auto;
+  width: 1231px;
+  margin: 0 84px 0 53px;
 }
-.container-fuild {
+.container-fluid {
   width: 100%;
 }
 header {
@@ -187,8 +187,26 @@ header section a {
 }
 header section ul {
   list-style: none;
+  padding: 6px 0;
+  height: 25px;
 }
-header section ul li {
+header section ul > li {
+  line-height: 10px;
+  height: 10px;
   float: left;
-  margin-left: 15px;
+  padding: 0 10px;
+}
+header section ul > li:nth-child(3) {
+  border-right: solid 1px #999;
+}
+article div > img {
+  width: 200px;
+  height: 100px;
+}
+article > input {
+  margin-top: 38px;
+  margin-left: 120px;
+  width: 495px;
+  height: 40px;
+  border: 2px solid red;
 }
