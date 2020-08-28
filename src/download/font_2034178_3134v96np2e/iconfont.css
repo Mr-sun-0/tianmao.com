@@ -1,0 +1,33 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1598614325010'); /* IE9 */
+  src: url('iconfont.eot?t=1598614325010#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPkAAsAAAAACDQAAAOVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqDUIMqATYCJAMUCwwABCAFhG0HShs4B8gekqTLDAoohwMAmAAcD/Vz5NufTS73c4AFUgyWx5fHE6haZl9NRrXGsWcj7mh/9LNPR7pK3pPc4FDsLzXhak2PAqziV6igiyJU4ZZv/vcZhKuuAZfj/0p8nmW5jLlsD1wWYIIB7Y1rihZIgXGLek2GS+VAbiZQraIJHXY+30hdor0CcTVOl6SeMsqa3NALXcnE7OIN0PrylNgD4rX/+fgPk2ClaBt0qyPnNyqZ/yLf/yLxfwyBDQY8nh3mNBpsBpK4Vuq8iofhzUjV+p2wH1H1ivKLfCP0ZvT9r///saU7UlemNMYfLxWiQ7PHwH6IJL9IoeCrhEAvQDUKHJK/vyIK7msiFVPAM+ATql6tCbBpEf0szWS2WcWJYnSpWB67N0f9LJ7xZodT4/QUuL/d5OCb3AbqzpY3ZzTiuQ6VTdApeIQPNKOmUlEMwdnUUkRUZhI7DKevyaXGcIELfbnwPjvzTGI9W4rcUzviZP+uCgf6eulzfu4FrXfbGZuXCtUOfG6mnjerxDM9L3FxYTOCFRwdjZ6ClILe84BzXZ1KR4/ClzJaqOcoWqpDKmZ9h/b33/yS6ZG7NtLVVbiJxPN+J65d3VjrfzfK0VHIuygqKCopVtjb2ijNJu/aRo2JSahvdYNG5POjcz51DPhYU8ZTLakj30oKm1xLeIscm18gmE/kjIzmEshDXjg4v4/lIOrhB+MAVnQyPbwz1KWlwQvMTAI+ZMq3bqJivmj4E43datmEXAQLmJIiMQDNXmIFYGGXTCFtfeK/Gv3j7/hby+SH9Cy/1jkS/EzhNARpf3V/r67gjxpSchRrStkSGmoTNUJfLLoKtLZh542Ifl7Rf/TOeBhH/L6Eyt2bj33FiLmijd5qIJK2Ga3BbnR6+1Bt4jJ9MCsdFzmKjSoJwpRlFBM+ozFln0jaPVqLfEZnKkhUp0JgwcHaiGN3SEeZoArheRAX4XsatyTNIPeCeurIKCnx6Q+MYtMHetq62dgOPYzGGJKRrU8yMzWITvddcCbboeP4kJruW6gkg9jMJJjp6ESXXWgQkeKSpkMiSEogFQhXAnEUPo+maieaufdfIF3KIUU1ZS3uBxSJmfUDPdp0WxA7pdeq7Fp2yZDRTWRKaEC0iM8FnIkdOSzsA6nl7SxIkRiI7REMzOhgtei2ysH8avcZqz3ECnS1Nko0kdFGZ+RsnPQ86bduYORPGCm+ijwjy2e5ToQAAAAA') format('woff2'),
+  url('iconfont.woff?t=1598614325010') format('woff'),
+  url('iconfont.ttf?t=1598614325010') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1598614325010#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icondiannao:before {
+  content: "\e615";
+}
+
+.iconicon_qrcode:before {
+  content: "\e9fa";
+}
+
+.iconsuo:before {
+  content: "\e603";
+}
+
+.iconxE:before {
+  content: "\e6a1";
+}
+

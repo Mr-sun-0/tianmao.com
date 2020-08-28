@@ -1,0 +1,37 @@
+{
+  "id": "2034178",
+  "name": "tianmao",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "天猫网页练习",
+  "glyphs": [
+    {
+      "icon_id": "12837127",
+      "name": "电脑",
+      "font_class": "diannao",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "16194782",
+      "name": "icon_qrcode",
+      "font_class": "icon_qrcode",
+      "unicode": "e9fa",
+      "unicode_decimal": 59898
+    },
+    {
+      "icon_id": "10635910",
+      "name": "锁",
+      "font_class": "suo",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "12069527",
+      "name": "xE601",
+      "font_class": "xE",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    }
+  ]
+}

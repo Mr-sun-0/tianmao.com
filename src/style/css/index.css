@@ -199,14 +199,30 @@ header section ul > li {
 header section ul > li:nth-child(3) {
   border-right: solid 1px #999;
 }
+article {
+  display: flow-root;
+}
 article div > img {
   width: 200px;
   height: 100px;
 }
-article > input {
+article section {
   margin-top: 38px;
   margin-left: 120px;
+  width: 625px;
+}
+article section > input {
   width: 495px;
   height: 40px;
   border: 2px solid red;
+}
+article section .search {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  width: 130px;
+  height: 40px;
+  background: red;
 }

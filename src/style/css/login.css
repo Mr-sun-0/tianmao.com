@@ -179,3 +179,112 @@ header img {
   background: #00c09b;
   height: 600px;
 }
+.banner .center {
+  height: 600px;
+  background: url('../../images/logintu.jpg');
+}
+.banner .login-page {
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 350px;
+  height: 400px;
+  background: white;
+  margin-top: 90px;
+  margin-right: 50px;
+  position: relative;
+}
+.banner .login-page .tip {
+  position: absolute;
+  top: 7px;
+  right: 168px;
+}
+.banner .login-page .tip div {
+  position: absolute;
+  width: 106px;
+  height: 28px;
+  border: 1px solid #f3d995;
+  color: orange;
+  background: #fefcee;
+  line-height: 26px;
+  text-align: center;
+  z-index: 2;
+}
+.banner .login-page .tip .deg {
+  position: absolute;
+  top: 6px;
+  left: 100px;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #ffc780;
+  background: #fefcee;
+  transform: rotate(45deg);
+  z-index: 1;
+}
+.banner .login-page span {
+  position: absolute;
+  right: -11px;
+  top: -16px;
+  font-size: 78px;
+  color: red;
+}
+.banner .login-page > ul {
+  margin-top: 35px;
+  display: flow-root;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+.banner .login-page > ul li {
+  margin-right: 10px;
+  height: 25px;
+  line-height: 25px;
+}
+.banner .login-page section {
+  margin: 20px 0px;
+  border: 1px #ccc solid;
+  width: 300px;
+}
+.banner .login-page section:hover {
+  border: 1px red solid;
+}
+.banner .login-page section input {
+  width: 254px;
+  height: 40px;
+  border: none;
+}
+.banner .login-page section > p {
+  background: #ccc;
+  text-align: center;
+  line-height: 40px;
+  width: 38px;
+  height: 40px;
+  color: white;
+  margin-right: 5px;
+}
+.banner .login-page article {
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #ff0036;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20px ;
+}
+.banner .login-page div[class="right"] a {
+  color: #6c6c6c;
+}
+#footer {
+  margin-top: 50px;
+}
+#footer div {
+  margin-bottom: 20px;
+}
+#footer div:nth-child(3) span {
+  color: #666;
+  line-height: 20px;
+  margin-right: 25px;
+}
+#footer div:nth-child(3) a {
+  color: #999;
+}
