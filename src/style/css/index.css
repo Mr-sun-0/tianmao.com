@@ -203,8 +203,10 @@ article {
   display: flow-root;
 }
 article div > img {
-  width: 200px;
-  height: 100px;
+  width: 240px;
+  height: 130px;
+  margin-left: -20px;
+  vertical-align: bottom;
 }
 article section {
   margin-top: 38px;
@@ -225,4 +227,342 @@ article section .search {
   width: 130px;
   height: 40px;
   background: red;
+}
+.nav-index {
+  display: flow-root;
+  border-bottom: #ff0036 1px solid;
+}
+.nav-index li {
+  float: left;
+  padding: 0 10px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 15px;
+}
+.nav-index ul:first-child li {
+  width: 115px;
+}
+.nav-index ul:first-child li img {
+  width: 96px;
+  height: 30px;
+}
+.nav-index ul:first-child li:first-child {
+  width: 200px;
+  background: #ff0036;
+  color: white;
+  font-weight: 600;
+  text-align: left;
+}
+.nav-index ul:first-child li:first-child a {
+  color: white;
+  margin-left: 5px;
+}
+.body {
+  background: #f5f5f5;
+  display: flow-root;
+}
+.banner-nav ul {
+  background-color: rgba(0, 0, 0, 0.55);
+  width: 200px;
+  height: 500px;
+  position: relative;
+}
+.banner-nav ul li {
+  position: relative;
+  height: 31.2px;
+  line-height: 31.2px;
+  color: #fff;
+  font-size: 14px;
+  padding: 0 1em;
+}
+.banner-nav ul a {
+  color: white;
+}
+.brandlist {
+  margin-top: 40px;
+}
+.brandlist li {
+  padding-top: 20px;
+  background: white;
+  width: 122.1px;
+  height: 108px;
+  float: left;
+  text-align: center;
+  line-height: 108px;
+  position: relative;
+  margin-right: 1px;
+  margin-bottom: 1px;
+}
+.brandlist li img {
+  width: 82%;
+  height: 50pxs;
+}
+.brandlist li a {
+  width: 123.1px;
+  height: 108px;
+  float: left;
+  text-align: center;
+  line-height: 108px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.3s all;
+}
+.brandlist li a:hover {
+  opacity: 1;
+}
+.brandlist li a .desc {
+  text-align: center;
+  line-height: 90px;
+  height: 60px;
+  color: #fff;
+}
+.brandlist li a .desc > span {
+  display: block;
+  padding: 0 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.brandlist li a .enter {
+  text-align: center;
+  height: 20px;
+}
+.brandlist li a .enter span {
+  display: inline-block;
+  width: 63px;
+  height: 20px;
+  font-size: 12px;
+  line-height: 20px;
+  background-color: #FF0036;
+  border-radius: 9px;
+}
+.tianmaoMart {
+  display: flow-root;
+  padding-top: 80px;
+}
+.tianmaoMart .advertise {
+  width: 235px;
+  height: 618px;
+  background: white;
+}
+.tianmaoMart .markgoods {
+  width: 995px;
+  height: 618px;
+}
+.tianmaoMart .markgoods a {
+  display: block;
+  width: 234px;
+  height: 300px;
+  margin-left: 13px;
+  margin-bottom: 13px;
+  float: left;
+  padding: 20px 27px 0;
+  background: white;
+}
+.tianmaoMart .markgoods a:first-child {
+  width: 484px;
+}
+.tianmaoMart .markgoods a img {
+  width: 185px;
+  height: 185px;
+}
+.tianmaoMart .markgoods a .goods-desc {
+  width: 135px;
+  height: 40px;
+  font-size: 14px;
+  color: #333;
+  line-height: 20px;
+  overflow: hidden;
+  margin: 8px auto;
+  text-align: center;
+}
+.tianmaoMart .markgoods a .goods-price {
+  width: 135px;
+  text-align: center;
+  font-size: 18px;
+  color: #FF0036;
+  line-height: 18px;
+  margin: 10px auto;
+}
+.tianmaoguoji {
+  display: flow-root;
+  margin-top: 80px;
+}
+.tianmaoguoji .advertise {
+  width: 235px;
+  height: 618px;
+}
+.tianmaoguoji .advertise div {
+  height: 300px;
+  margin-bottom: 13px;
+  background: white;
+}
+.tianmaoguoji .advertise div:last-child {
+  margin-bottom: nones;
+}
+.tianmaoguoji .markgoods {
+  width: 995px;
+  height: 618px;
+}
+.tianmaoguoji .markgoods a {
+  background: white;
+  display: block;
+  width: 234px;
+  height: 300px;
+  margin-left: 13px;
+  margin-bottom: 13px;
+  float: left;
+  padding: 20px 27px 0;
+}
+.tianmaoguoji .markgoods a img {
+  width: 185px;
+  height: 185px;
+}
+.tianmaoguoji .markgoods a .goods-desc {
+  width: 135px;
+  height: 40px;
+  font-size: 14px;
+  color: #333;
+  line-height: 20px;
+  overflow: hidden;
+  margin: 8px auto;
+  text-align: center;
+}
+.tianmaoguoji .markgoods a .goods-price {
+  width: 135px;
+  text-align: center;
+  font-size: 18px;
+  color: #FF0036;
+  line-height: 18px;
+  margin: 10px auto;
+}
+.jujia,
+.kudian,
+.meili,
+.aichao,
+.huwai {
+  display: flow-root;
+}
+.jujia div,
+.kudian div,
+.meili div,
+.aichao div,
+.huwai div {
+  height: 80px;
+  margin-top: 30px;
+}
+.jujia div h3,
+.kudian div h3,
+.meili div h3,
+.aichao div h3,
+.huwai div h3 {
+  height: 18px;
+  font-size: 18px;
+  font-weight: 200;
+  vertical-align: middle;
+  padding-left: 10px;
+  border-left: 3px solid black;
+}
+.jujia .advertise,
+.kudian .advertise,
+.meili .advertise,
+.aichao .advertise,
+.huwai .advertise {
+  width: 235px;
+  height: 618px;
+}
+.jujia .markgoods,
+.kudian .markgoods,
+.meili .markgoods,
+.aichao .markgoods,
+.huwai .markgoods {
+  width: 995px;
+  height: 618px;
+}
+.jujia .markgoods a,
+.kudian .markgoods a,
+.meili .markgoods a,
+.aichao .markgoods a,
+.huwai .markgoods a {
+  background: white;
+  display: block;
+  width: 234px;
+  height: 300px;
+  margin-left: 13px;
+  margin-bottom: 13px;
+  float: left;
+  padding: 20px 27px 0;
+}
+.jujia .markgoods a img,
+.kudian .markgoods a img,
+.meili .markgoods a img,
+.aichao .markgoods a img,
+.huwai .markgoods a img {
+  width: 185px;
+  height: 185px;
+}
+.jujia .markgoods a .goods-desc,
+.kudian .markgoods a .goods-desc,
+.meili .markgoods a .goods-desc,
+.aichao .markgoods a .goods-desc,
+.huwai .markgoods a .goods-desc {
+  width: 135px;
+  height: 40px;
+  font-size: 14px;
+  color: #333;
+  line-height: 20px;
+  overflow: hidden;
+  margin: 8px auto;
+  text-align: center;
+}
+.jujia .markgoods a .goods-price,
+.kudian .markgoods a .goods-price,
+.meili .markgoods a .goods-price,
+.aichao .markgoods a .goods-price,
+.huwai .markgoods a .goods-price {
+  width: 135px;
+  text-align: center;
+  font-size: 18px;
+  color: #FF0036;
+  line-height: 18px;
+  margin: 10px auto;
+}
+.aside {
+  border-top: #ccc 1px solid;
+  height: 350px;
+}
+.aside .server {
+  padding: 25px 0 ;
+}
+.aside .server a {
+  width: 307.75px;
+  height: 100px;
+  display: block;
+}
+.aside .bottom-nav {
+  border-top: 1px #999 solid;
+  display: flex;
+  justify-content: space-around;
+}
+.aside .bottom-nav div {
+  height: 100px;
+}
+.aside .bottom-nav div a {
+  margin: 1em 0;
+  display: block;
+}
+.aside .bottom-nav div img {
+  width: 105px;
+  height: 105px;
+}
+.footer {
+  background: black;
+  height: 100px;
+}
+.footer a {
+  color: white;
 }

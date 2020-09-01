@@ -1,0 +1,95 @@
+@import url(./reset.less);
+.container{width: 992px;margin: 0 auto;};
+.container-fluid{width: 100%;};
+
+header{
+    height: 35px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #eee;
+    line-height: 35px;
+    font-size: 14px;
+    ul:first-child{
+        li{
+            float: left;
+        }
+    }
+    ul:last-child{
+        li{
+            float:left;
+            padding: 0 15px;
+        }
+    }
+
+}
+
+.search{
+    padding: 20px 0 40px;
+    display: flow-root;
+    .logo{
+        height: 45px;
+        width: 180px;
+        background: url(../../images/shopping/sprite1.png) no-repeat -112px 0;
+    }
+    section{
+        border: 2px solid red;
+        div:first-child{
+            height: 29px;
+            width: 75px;
+            background: #f5f5f5;
+            text-align: center;
+            line-height: 29px;
+            padding: 0 10px;
+            border-right:1px solid #ccc;
+        }
+        >input{
+           width: 340px;
+           height: 29px;
+           border: none;
+           }
+           .searchbtn{
+            font-weight: 600;
+            font-size: 20px;
+            text-align: center;
+            line-height: 29px;
+            color: white;
+            width: 90px;
+            height: 29px;
+            background: red;
+        }
+          
+       }
+}
+
+.content{
+    height: 100px;
+    .nav-header{
+        border-bottom: 2px solid #ccc;
+        display:flow-root ;
+        ul{
+            display: flow-root;
+            height: 30px;
+            padding-bottom: 10px;
+            font-weight: 600;
+            font-size: 16px;
+               li{
+                   width: 132px;
+                   border-right:1px solid #ccc;
+                   float: left;
+                   padding: 0 25px;
+                   &:last-child{
+                       border-right: none;
+                   }
+               }
+        }
+        aside{
+            display: flow-root;
+            line-height:25px ;
+            a{
+                width: 55px;
+                height: 25px;
+                background: #ccc;
+                text-align: center;
+            }
+        }
+    }
+}
