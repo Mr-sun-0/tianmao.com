@@ -8,11 +8,14 @@
     <meta name="description" content="tianmao">
     <title>天猫注册</title>
     <link rel="stylesheet" href="../style/css/register.css">
+    <script src="../js/register.js" type="module"></script>
+    <link href="https://img.alicdn.com/tfs/TB1XlF3RpXXXXc6XXXXXXXXXXXX-16-16.png" rel="shortcut icon" type="image/x-icon">
+
 </head>
 
 <body>
     <header class="container">
-        <ul>
+        <ul id="process">
             <li>
                 <i>1</i>
                 <span>设置用户名</span>
@@ -31,27 +34,38 @@
 
         </ul>
     </header>
-    <div class="agree-concent">
-        <div class="dialog-head">
-            <h3>注册协议</h3>
-            <a href="">×</a>
-        </div>
-        <div class="dialog-body">
-            <p><strong>【谨慎阅读】</strong>您在申请注册流程中点击同意前，应当认真阅读以下协议。<strong style="text-decoration: underline">请您务必审慎阅读、充分理解协议中相关条款内容，其中包括：</strong></p>
-            <p>1、<strong style="text-decoration: underline">与您约定免除或限制责任的条款；</strong></p>
-            <p>2、<strong style="text-decoration: underline">与您约定法律适用和管辖的条款；</strong></p>
-            <p>3、<strong style="text-decoration: underline">其他以粗体下划线标识的重要条款。</strong></p>
-            <p>如您对协议有任何疑问，可向平台客服咨询。</p>
-            <p><strong>【特别提示】</strong>当您按照注册页面提示填写信息、阅读并同意协议且完成全部注册程序后，即表示您已充分阅读、理解并接受协议的全部内容。如您因平台服务与淘宝发生争议的，适用《淘宝平台服务协议》处理。如您在使用平台服务过程中与其他用户发生争议的，依您与其他用户达成的协议处理。</p>
-            <p><strong style="text-decoration: underline">阅读协议的过程中，如果您不同意相关协议或其中任何条款约定，您应立即停止注册程序。</strong></p>
-            <p><a href="http://terms.alicdn.com/legal-agreement/terms/TD/TD201609301342_19559.html" target="_blank">淘宝平台服务协议</a></p>
-            <p><a href="http://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201703241622_61002.html" target="_blank">隐私权政策</a></p>
-            <p><a href="https://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201811121436_80276.html" target="_blank">法律声明</a></p>
-            <p><a href="https://render.alipay.com/p/f/fd-jm7jym6r/alipay/multi-agreement.html" target="_blank">支付宝及客户端服务协议</a></p>
-            <p><button>同意协议</button></p>
+    <div class="agree container-fluid">
+        <div class="agree-concent">
+            <div class="dialog-head">
+                <h3>注册协议</h3>
+                <a href="">×</a>
+            </div>
+            <div class="dialog-body">
+                <p><strong>【谨慎阅读】</strong>您在申请注册流程中点击同意前，应当认真阅读以下协议。<strong style="text-decoration: underline">请您务必审慎阅读、充分理解协议中相关条款内容，其中包括：</strong></p>
+                <p>1、<strong style="text-decoration: underline">与您约定免除或限制责任的条款；</strong></p>
+                <p>2、<strong style="text-decoration: underline">与您约定法律适用和管辖的条款；</strong></p>
+                <p>3、<strong style="text-decoration: underline">其他以粗体下划线标识的重要条款。</strong></p>
+                <p>如您对协议有任何疑问，可向平台客服咨询。</p>
+                <p><strong>【特别提示】</strong>当您按照注册页面提示填写信息、阅读并同意协议且完成全部注册程序后，即表示您已充分阅读、理解并接受协议的全部内容。如您因平台服务与淘宝发生争议的，适用《淘宝平台服务协议》处理。如您在使用平台服务过程中与其他用户发生争议的，依您与其他用户达成的协议处理。</p>
+                <p><strong style="text-decoration: underline">阅读协议的过程中，如果您不同意相关协议或其中任何条款约定，您应立即停止注册程序。</strong></p>
+                <p><a href="http://terms.alicdn.com/legal-agreement/terms/TD/TD201609301342_19559.html" target="_blank">淘宝平台服务协议</a></p>
+                <p><a href="http://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201703241622_61002.html" target="_blank">隐私权政策</a></p>
+                <p><a href="https://terms.alicdn.com/legal-agreement/terms/suit_bu1_taobao/suit_bu1_taobao201811121436_80276.html" target="_blank">法律声明</a></p>
+                <p><a href="https://render.alipay.com/p/f/fd-jm7jym6r/alipay/multi-agreement.html" target="_blank">支付宝及客户端服务协议</a></p>
+                <p><button>同意协议</button></p>
 
+
+            </div>
         </div>
     </div>
+    <div class="phone container">
+        <ul>
+            <li><span>手机号</span> <input type="text" value="中国大陆  （+86）"> <input type="text"></li>
+            <li><span>验证</span><input type="range" min="0"></li>
+            <a href="#h2">下一步</a>
+        </ul>
+    </div>
+
 
 </body>
 

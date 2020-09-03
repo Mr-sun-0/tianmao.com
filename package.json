@@ -11,6 +11,6 @@
     "license": "ISC",
     "dependencies": {},
     "devDependencies": {
-
+        "swiper": "^6.1.2"
     }
 }

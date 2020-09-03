@@ -11,6 +11,9 @@ header{
     ul:first-child{
         li{
             float: left;
+            &:first-of-type{
+                margin-right: 10px;
+            }
         }
     }
     ul:last-child{
@@ -84,6 +87,10 @@ header{
         aside{
             display: flow-root;
             line-height:25px ;
+            #total-price{
+                color: red;
+                font-weight: 600;
+            }
             a{
                 width: 55px;
                 height: 25px;
@@ -92,4 +99,50 @@ header{
             }
         }
     }
+}
+
+.goods-wrap{
+    height: 130px;
+    .goods-content{
+        padding: 17px;
+        li{
+            height: 80px;
+            &:nth-child(1){
+                width: 20px;
+            }
+            &:nth-child(2){
+                width: 211px;
+                height: 80px;
+                img{
+                    width: 80px;
+                    height: 80px;
+                }
+                div{
+                    display: inline-block;
+                    height: 80px;
+                    width: 80px;
+                    margin-left: 20px;
+                }
+            }
+            &:nth-child(3){
+                width: 172px;
+            }
+            &:nth-child(4){
+                width: 120px;
+            }
+            &:nth-child(5){
+                width: 120px;
+                input{
+                    width: 30px;
+                }
+            }
+            &:nth-child(6){
+                width: 105px;
+            }
+            &:nth-child(7){
+                width: 100px;
+            }
+        }
+    }
+
 }

@@ -9,11 +9,13 @@
 header {
   display: flow-root;
   border-bottom: 2px solid #e6e6e6;
+  height: 48px;
 }
 header ul {
   width: 720px;
   line-height: 48px;
   margin: 0 auto;
+  position: relative;
 }
 header ul li {
   text-align: center;
@@ -24,6 +26,26 @@ header ul li {
   font-size: 16px;
   font-weight: 600;
   color: #acacac;
+  position: absolute;
+  top: 0px;
+}
+header ul li:nth-child(1) {
+  left: 0;
+  border-bottom: red 2px solid;
+  top: 2px;
+  color: black;
+}
+header ul li:nth-child(1) i {
+  background: red;
+}
+header ul li:nth-child(2) {
+  left: 180px;
+}
+header ul li:nth-child(3) {
+  left: 360px;
+}
+header ul li:nth-child(4) {
+  left: 540px;
 }
 header ul li i {
   display: inline-block;
@@ -34,7 +56,13 @@ header ul li i {
   line-height: 25px ;
   color: white;
 }
-.agree-concent {
+.agree {
+  position: absolute;
+  height: 600px;
+  top: 0;
+}
+.agree .agree-concent {
+  background: white;
   margin: 75px auto 0;
   width: 680px;
   padding: 20px;
@@ -42,11 +70,11 @@ header ul li i {
   border-top: 2px solid #ff4a00;
   position: relative;
 }
-.agree-concent .dialog-head h3 {
+.agree .agree-concent .dialog-head h3 {
   font-size: 16px;
   font-weight: 600;
 }
-.agree-concent .dialog-head a {
+.agree .agree-concent .dialog-head a {
   color: red;
   font-size: 30px;
   font-weight: 900;
@@ -54,22 +82,54 @@ header ul li i {
   right: 20px;
   top: 8px;
 }
-.agree-concent .dialog-body p {
+.agree .agree-concent .dialog-body p {
   line-height: 16px;
   margin: 1em 0;
 }
-.agree-concent .dialog-body p a {
+.agree .agree-concent .dialog-body p a {
   color: #ff0036;
   font-weight: 700;
 }
-.agree-concent .dialog-body p:last-child {
+.agree .agree-concent .dialog-body p:last-child {
   text-align: center;
 }
-.agree-concent .dialog-body p:last-child button {
+.agree .agree-concent .dialog-body p:last-child button {
   background: #ff0036;
   width: 180px;
   height: 35px;
   border-radius: 3px;
   color: white;
   cursor: pointer;
+}
+.phone {
+  margin: 50px auto;
+}
+.phone li {
+  margin-left: 300px;
+  height: 40px;
+}
+.phone li span {
+  padding-right: 20px ;
+  display: inline-block;
+  width: 100px;
+  line-height: 40px;
+  font-size: 18px;
+  text-align: right;
+}
+.phone li input {
+  width: 100px;
+  height: 30px;
+  border: 1px solid black;
+  margin-right: 20px;
+}
+.phone a {
+  display: block;
+  height: 40px;
+  width: 200px;
+  background: #ccc;
+  margin-top: 50px ;
+  margin-left: 350px;
+  line-height: 40px;
+  font-size: 18px;
+  text-align: center;
 }

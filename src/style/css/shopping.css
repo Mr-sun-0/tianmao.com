@@ -163,6 +163,12 @@ a:hover {
 .right {
   float: right;
 }
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
 .container {
   width: 992px;
   margin: 0 auto;
@@ -179,6 +185,9 @@ header {
 }
 header ul:first-child li {
   float: left;
+}
+header ul:first-child li:first-of-type {
+  margin-right: 10px;
 }
 header ul:last-child li {
   float: left;
@@ -247,9 +256,57 @@ header ul:last-child li {
   display: flow-root;
   line-height: 25px ;
 }
+.content .nav-header aside #total-price {
+  color: red;
+  font-weight: 600;
+}
 .content .nav-header aside a {
   width: 55px;
   height: 25px;
   background: #ccc;
   text-align: center;
+}
+.goods-wrap {
+  height: 130px;
+}
+.goods-wrap .goods-content {
+  padding: 17px;
+}
+.goods-wrap .goods-content li {
+  height: 80px;
+}
+.goods-wrap .goods-content li:nth-child(1) {
+  width: 20px;
+}
+.goods-wrap .goods-content li:nth-child(2) {
+  width: 211px;
+  height: 80px;
+}
+.goods-wrap .goods-content li:nth-child(2) img {
+  width: 80px;
+  height: 80px;
+}
+.goods-wrap .goods-content li:nth-child(2) div {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  margin-left: 20px;
+}
+.goods-wrap .goods-content li:nth-child(3) {
+  width: 172px;
+}
+.goods-wrap .goods-content li:nth-child(4) {
+  width: 120px;
+}
+.goods-wrap .goods-content li:nth-child(5) {
+  width: 120px;
+}
+.goods-wrap .goods-content li:nth-child(5) input {
+  width: 30px;
+}
+.goods-wrap .goods-content li:nth-child(6) {
+  width: 105px;
+}
+.goods-wrap .goods-content li:nth-child(7) {
+  width: 100px;
 }

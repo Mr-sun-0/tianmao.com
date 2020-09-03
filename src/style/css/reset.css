@@ -163,3 +163,9 @@ a:hover {
 .right {
   float: right;
 }
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}

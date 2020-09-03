@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../style/css/index.css">
     <link rel="stylesheet" href="../iconfont/iconfont.css">
     <link href="https://img.alicdn.com/tfs/TB1XlF3RpXXXXc6XXXXXXXXXXXX-16-16.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="../style/css/swiper-bundle.min.css">
     <script src="../js/index.js" type="module"></script>
 </head>
 
@@ -17,13 +18,14 @@
     <header class=" container-fluid">
         <section class="container">
             <div class="left">
+                <span id="username"></span>
                 <span>喵，欢迎来到天猫</span>
-                <a href="">请登录</a>
-                <a href="">免费注册</a>
+                <a href="./login.html">请登录</a>
+                <a href="./register.html">免费注册</a>
             </div>
             <ul class="right">
                 <li>我的淘宝</li>
-                <li>购物车</li>
+                <li><a href="./shopping.html">购物车</a></li>
                 <li>收藏夹</li>
                 <li>手机版</li>
                 <li>淘宝网</li>
@@ -118,6 +120,17 @@
         </ul>
     </nav>
     <div class="banner-wrap container-fluid ">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../images/index/banner1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="../images/index/banner2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="../images/index/banner3.jpg" alt=""></div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+
+        </div>
     </div>
     <div class="body container-fluid">
         <div class="brandlist container">
@@ -528,46 +541,7 @@
                 <div class="adver-bottom"></div>
             </div>
             <div class="markgoods left">
-                <a href=""></a>
-                <a href=""></a>
-                <a href=""> <img class="lazy" data-original="../images/index/quechao.jpg" alt="">
-                    <div class="goods-desc">雀巢咖啡精神一整天</div>
-                    <div class="goods-price">
-                        ￥9.9
-                    </div>
-                </a>
-                <a href="">
-                    <img class="lazy" data-original="../images/index/shufujia.jpg" alt="">
-                    <div class="goods-desc">我爱洗澡皮肤好好</div>
-                    <div class="goods-price">
-                        ￥9.9
-                    </div>
-                </a>
-                </a>
-                <a href=""><img class="lazy" data-original="../images/index/daliyuan.jpg" alt="">
-                    <div class="goods-desc">花生牛奶达利园，用了都说好</div>
-                    <div class="goods-price">
-                        ￥9.9
-                    </div>
-                </a>
-                <a href=""><img class="lazy" data-original="../images/index/pangshi.jpg" alt="">
-                    <div class="goods-desc">亲测好用，好吃极了</div>
-                    <div class="goods-price">
-                        ￥9.9
-                    </div>
-                </a>
-                <a href=""><img class="lazy" data-original="../images/index/zhengquanfenxi.jpg" alt="">
-                    <div class="goods-desc">看了也无用全凭一张脸</div>
-                    <div class="goods-price">
-                        ￥9.9
-                    </div>
-                </a>
-                <a href=""><img class="lazy" data-original="../images/index/zhengqi.jpg" alt="">
-                    <div class="goods-desc">狂吃狂吃狂吃</div>
-                    <div class="goods-price">
-                        ￥9.9
-                    </div>
-                </a>
+
             </div>
         </div>
         <div class="kudian container">
@@ -774,11 +748,38 @@
                 </a>
             </div>
         </div>
-
-        <div class="container">
+        <div class="favor container">
             <header>
                 <p><span>猜你喜欢</span> </p>
             </header>
+        </div>
+        <div class="list hide">
+            <li>导航</li>
+            <li>
+                <a href="javascript:;" title="tianmaoMart">天猫超市</a>
+            </li>
+            <li>
+                <a href="javascript:;" title="tianmaoguoji">天猫国际</a>
+            </li>
+            <li>
+                <a href="javascript:;" title="jujia">居家生活</a>
+            </li>
+            <li>
+                <a href="javascript:;" title="kudian">潮电酷玩</a>
+            </li>
+            <li>
+                <a href="javascript:;" title="meili">美丽人生</a>
+            </li>
+            <li>
+                <a href="javascript:;" title="aichao">打造爱巢</a>
+            </li>
+            <li>
+                <a href="javascript:;" title="huwai">户外出行</a>
+            </li>
+            <li>
+                <a href="javascript:;" title="favor">猜你喜欢</a>
+            </li>
+            <li><a href="">返回顶部</a></li>
         </div>
     </div>
 
@@ -867,54 +868,6 @@
             </p>
         </div>
     </div>
-    <!-- <div class="container-fluid footer>
-       
-       
-        <div class=" footer-copyright ">增值电信业务经营许可证：
-            <a data-spm-protocol="i " href="http://beian.miit.gov.cn " data-spm-anchor-id="875.7931836/B.a2226n1.55 ">浙B2-20110446</a>
-            <span style="margin-right:65px; ">市场名称登记证：工商网市字3301004119号</span>
-            <span>出版物网络交易平台服务经营备案证： 新出发浙备字第001号</span>
-            <br>
-            <span style="margin-right:65px; ">互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com</span>
-            <span class="footer-liangxinyao-cert " style="display:none; ">
-            <br>
-            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?spm=875.7931836/B.a2226n1.56.66144265xspErT&amp;recordcode=44011202000911 " target="_blank " data-spm-anchor-id="875.7931836/B.a2226n1.56 ">
-                <img src="https://img.alicdn.com/tps/TB1_qAKKVXXXXXjapXXXXXXXXXX-20-20.png ">粤公网安备 44011202000911号
-            </a>
-            <a style="margin-right:30px " href="http://www.beian.miit.gov.cn?spm=875.7931836/B.a2226n1.57.66144265xspErT " target="_blank " data-spm-anchor-id="875.7931836/B.a2226n1.57 ">粤ICP备14088652号-2</a>
-            医疗器械经营许可证：<a style="margin-right:30px " href="https://img.alicdn.com/tfs/TB1Gfsnnxn1gK0jSZKPXXXvUXXa-1172-830.png " target="_blank " data-spm-anchor-id="875.7931836/B.a2226n1.58 ">粤穗食药监械经营许20171161号</a>
-            <a style="margin-right:50px " href="https://img.alicdn.com/tfs/TB1Uu.mnAL0gK0jSZFtXXXQCXXa-1171-835.png " target="_blank " data-spm-anchor-id="875.7931836/B.a2226n1.59 ">食品经营许可证</a>
-            互联网药品信息服务资格证：<a href="https://img.alicdn.com/tfs/TB1WcAnnAP2gK0jSZPxXXacQpXa-1185-828.png " target="_blank " data-spm-anchor-id="875.7931836/B.a2226n1.60 ">（粤）—经营性—2018—0092</a>
-            <a style="margin-right:30px " href="http://air.gzaic.gov.cn:88/outsys/commonquery/viewBusinessLicence?spm=875.7931836/B.a2226n1.61.66144265xspErT&amp;uniscid=91440101681325547Y&amp;regno=440106000067508 " target="_blank
-        " data-spm-anchor-id="875.7931836/B.a2226n1.61 ">阿里健康大药房营业执照</a>
-            <a href="https://img.alicdn.com/tfs/TB1ZBMonuH2gK0jSZFEXXcqMpXa-1177-835.png " target="_blank " data-spm-anchor-id="875.7931836/B.a2226n1.62 ">药品经营许可证</a>
-            <a href="https://img.alicdn.com/tfs/TB13bUqnxv1gK0jSZFFXXb0sXXa-584-833.png " target="_blank " data-spm-anchor-id="875.7931836/B.a2226n1.63 ">第二类医疗器械备案凭证</a>
-            <a href="http://www.nmpa.gov.cn/WS04/CL2042/?spm=875.7931836/B.a2226n1.64.66144265xspErT " target="_blank " data-spm-anchor-id="875.7931836/B.a2226n1.64 ">国家药品监督管理局</a>
-            <a href="http://www.12315.cn/?spm=875.7931836/B.a2226n1.65.66144265xspErT " target="_blank " data-spm-anchor-id="875.7931836/B.a2226n1.65 ">全国12315互联网平台</a>
-            <a href="http://www.gdnet110.gov.cn/?spm=875.7931836/B.a2226n1.66.66144265xspErT&amp;top_keyword " target="_blank " data-spm-anchor-id="875.7931836/B.a2226n1.66 ">广东省公安厅</a>
-            <a href="https://img.alicdn.com/tfs/TB1jRoqnxD1gK0jSZFKXXcJrVXa-1168-833.png " target="_blank " data-spm-anchor-id="875.7931836/B.a2226n1.67 ">GSP</a>
-            <a href="https://img.alicdn.com/tfs/TB1eWtQnLb2gK0jSZK9XXaEgFXa-926-618.png " target="_blank " data-spm-anchor-id="875.7931836/B.a2226n1.68 ">二类医疗器械网络销售备案</a>
-            <a href="https://img.alicdn.com/tfs/TB1eWtQnLb2gK0jSZK9XXaEgFXa-926-618.png " target="_blank " data-spm-anchor-id="875.7931836/B.a2226n1.69 ">三类医疗器械网络销售备案</a>
-            <a href="https://img.alicdn.com/tfs/TB1or0iAFzqK1RjSZSgXXcpAVXa-650-924.jpg " target="_blank " data-spm-anchor-id="875.7931836/B.a2226n1.70 ">食品经营备案</a>
-            <br>
-        </span> 互联网药品信息服务资质证书编号：
-            <a href="//img.alicdn.com/tps/TB1vi6vPVXXXXbVXVXXXXXXXXXX-927-653.png " data-spm-anchor-id="875.7931836/B.a2226n1.71 ">浙-（经营性）-2017-0005</a>
-            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?spm=875.7931836/B.a2226n1.72.66144265xspErT&amp;recordcode=33010002000120 " data-spm-anchor-id="875.7931836/B.a2226n1.72 "><img src="//img.alicdn.com/tps/TB1yEqRPXXXXXXPXpXXXXXXXXXX-20-20.png
-        " style="position:relative;top:5px;vertical-align:baseline; "> 浙公网安备 33010002000120号</a>
-            <br>
-            <span style="margin-right:65px; ">医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00002号</span>
-            <span style="margin-right:65px; ">互联网药品交易服务资格证书：国A20150001</span>
-            <br>
-            <span style="margin-right:65px; ">浙江省网络食品销售第三方平台提供者备案：浙网食A33010002</span>
-
-            <a href="http://jb.ccm.gov.cn/?spm=875.7931836/B.a2226n1.73.66144265xspErT " data-spm-anchor-id="875.7931836/B.a2226n1.73 ">12318举报</a>
-            <b>© 2003-2020 TMALL.COM 版权所有</b>
-            <p style="padding-top:10px; display:none; " class="footer-fp-img ">
-                <a style="margin-right:10px; " target="_blank " href="http://idinfo.zjamr.zj.gov.cn//bscx.do?spm=875.7931836/B.a2226n1.74.66144265xspErT&amp;method=lzxx&amp;id=3301843301840000201049 " data-spm-anchor-id="875.7931836/B.a2226n1.74
-        "><img style="width: 30px;height: 30px " src="//img.alicdn.com/tfs/TB1MQX3cBr0gK0jSZFnXXbRRXXa-65-70.gif "></a>
-                <a target="_blank " href="http://sq.ccm.gov.cn/ccnt/sczr/service/business/emark/toDetail/CB964ABC7B904B7BA3472DDF700A2D6D?spm=875.7931836/B.a2226n1.75.66144265xspErT " data-spm-anchor-id="875.7931836/B.a2226n1.75 "><img src="//img.alicdn.com/tps/i1/TB13mgzHXXXXXbjXVXXzby4IVXX-80-30.jpg "></a>
-            </p>
-        </div> -->
 
 </body>
 

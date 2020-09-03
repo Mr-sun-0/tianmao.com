@@ -110,9 +110,11 @@ article{
         background-color: rgba(0,0,0,.55);
     width: 200px;
     height: 500px;
-    position: relative;
+    position: absolute;
+    top: 190px;
+    left: 53px;
+    z-index: 2;
     li{
-        position: relative;
         height: 31.2px;
         line-height: 31.2px;
         color: #fff;
@@ -125,11 +127,23 @@ article{
     }
    
 }
+.banner-wrap{
+    height: 500px;
+    .swiper-pagination>span{
+        width: 40px;
+        border-radius: 10px;
+    }
+    img{
+        margin-left:60px ;
+    }
+}
 
 
-// .back(@index) when (@index>0){
-//     li:nth-child(10+@index){
-//         background: url('../../images/index/img2_{@index}.webp') no-repeat 10px 20px;
+
+// .back(@index) when (@index > 0){
+    
+//     li:nth-child(@{index}){
+//         background: url('../../images/index/img2_@{index}.webp') no-repeat 10px 20px;
 //     };
 //     .back(@index-1);
 // };
@@ -137,6 +151,8 @@ article{
 
 .brandlist{
     margin-top: 40px;
+
+
     li{
         padding-top: 20px;
         background: white;
@@ -144,7 +160,6 @@ article{
         height: 108px;
         float: left;
         text-align: center;
-        line-height: 108px;
         position: relative;
         margin-right: 1px;
         margin-bottom: 1px;
@@ -158,9 +173,8 @@ article{
         height: 108px;
         float: left;
         text-align: center;
-        line-height: 108px;
         position: absolute;
-        background: rgba(0,0,0,0.8);
+        background: rgba(0,0,0,0.5);
         top: 0;
         left: 0;
         opacity: 0;
@@ -170,11 +184,12 @@ article{
         }
         .desc{
             text-align: center;
-            line-height: 90px;
             height: 60px;
+            overflow: hidden;
             color: #fff;
             >span{
                 display: block;
+                line-height: 60px;
                 padding: 0 5px;
                 overflow: hidden;
                 text-overflow: ellipsis;
@@ -188,8 +203,8 @@ article{
                 display: inline-block;
                 width: 63px;
                 height: 20px;
-                font-size: 12px;
                 line-height: 20px;
+                font-size: 12px;
                 background-color: #FF0036;
                 border-radius: 9px;
              }
@@ -359,6 +374,30 @@ article{
 
 }
 
+.list{
+    position: fixed;
+    top: 35% ;
+    left: 0;
+    li{
+        border: 1 px solid black;
+        margin: 5 px;
+        padding: 5px  ;
+        background-color: #fff;
+        width: 36px;
+        height: 36px;
+        &:first-child{
+            padding-top:10px ;
+            background: red;
+        }
+        a{
+            text-decoration: none;
+           
+        }
+    }
+}
+.active{
+    background:red !important;
+}
 .aside{
     border-top:#ccc 1px solid;
     height: 350px;

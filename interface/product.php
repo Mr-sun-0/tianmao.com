@@ -1,16 +1,10 @@
 <?php
-   include('./conn.php');
-   $sql="select * from product";
-
-   $res=$mysql->query($sql);
-
-   $mysql->close();
-    $arr=array();
-    while($row=$res->fetch_assoc()){
-        array_push($arr,$row);
-    }
-
-    $json=json_encode($arr);
-
+    include('./conn.php');
+    $id = $_REQUEST['id'];
+    $sql ="select * from product where id='$id'";
+    $res = $mysqli->query($sql);
+    $mysqli->close();
+    $row =$res->fetch_assoc();
+    $json=JSON_encode($row);
     echo $json;
 ?>

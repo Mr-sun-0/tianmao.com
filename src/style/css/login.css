@@ -163,6 +163,12 @@ a:hover {
 .right {
   float: right;
 }
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
 .container {
   width: 1190px;
   margin: 0 auto;
@@ -270,6 +276,7 @@ header img {
   color: white;
   font-size: 16px;
   margin-bottom: 20px ;
+  cursor: pointer;
 }
 .banner .login-page div[class="right"] a {
   color: #6c6c6c;
